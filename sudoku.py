@@ -6,7 +6,7 @@ from datetime import datetime
 def Level():
     level = int(input("choose alevel between 1,2 and 3: "))       
     while True:
-        if level < 0 or level > 3:
+        if level < 1 or level > 3:
             level = int(input("wrong\n choose alevel between 1,2 and 3: "))        
         else:
             break
